@@ -25,9 +25,21 @@ Resource: Preventing Insecure Network Connections (Apple Developer Documentation
 
 ## Networking
 
+IPv4 addresses are 32 bits long, allowing about 4.3 billion addresses, which is too small for the growing number of connected devices. IPv6 expands addresses to 128 bits, giving a vastly larger number of addressable devices, more levels of addressing hierarchy and simpler address auto-configuration. It also simplifies the packet header. As more citizens' phones and devices connect, supporting IPv6 keeps the assistant's servers reachable for every user.
+
+Resource: RFC 8200 - Internet Protocol, Version 6 (IPv6) Specification - https://www.rfc-editor.org/rfc/rfc8200
+
 ## Cybersecurity
 
+Prompt injection is an attack where crafted input makes the assistant ignore its instructions and behave in unintended ways. In direct injection, a user types the malicious instruction into the chat, for example to reveal its rules. In indirect injection, the instruction is hidden in external content the assistant reads, such as a web page or document retrieved by RAG. Two ways to reduce risk are limiting the assistant to least-privilege access and filtering inputs and outputs.
+
+Resource: LLM01:2025 Prompt Injection (OWASP Gen AI Security Project) - https://genai.owasp.org/llmrisk/llm01-prompt-injection/
+
 ## Data
+
+Pseudonymization replaces identifiers in chat logs, such as names or civil ID numbers, with codes, while the key that links codes to people is stored separately. Because citizens can still be re-identified with that key, pseudonymized logs remain personal data and the law still applies. Anonymization removes identifying details so that no one can reasonably identify the person. Only truly anonymous data falls outside data protection law, which is hard to achieve with free-text chats.
+
+Resource: Regulation (EU) 2016/679 (General Data Protection Regulation), Recital 26 - https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679
 
 ## Misconception in My Track
 
