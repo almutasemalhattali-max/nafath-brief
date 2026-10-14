@@ -43,4 +43,8 @@ Resource: Regulation (EU) 2016/679 (General Data Protection Regulation), Recital
 
 ## Misconception in My Track
 
+A common misconception is that replacing citizens' names and civil ID numbers with codes makes chat logs anonymous, so they can be stored or shared freely. This is wrong. Replacing identifiers is only pseudonymization. If the organization can link the codes back to people using additional information, such as a lookup table, the logs are still personal data and data protection law still applies. Data is only anonymous when the person can no longer be identified by any means reasonably likely to be used. Recital 26 of the GDPR states this: pseudonymised data that could be attributed to a person using additional information is still information on an identifiable person.
+
 ## Open Question
+
+How long should a government entity keep pseudonymized chat logs before deleting or anonymizing them, and who should decide this retention period?
